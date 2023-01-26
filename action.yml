@@ -1,0 +1,5 @@
+name: "test the tests"
+description: "please work"
+runs:
+  using: nodejs
+  main: index.js
