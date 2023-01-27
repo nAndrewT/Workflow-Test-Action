@@ -15,7 +15,7 @@ async function checkFileExists(filePath) {
   })
 }
 
-
+(
   async () => {
     try{
       checkFileExists("LISENCE")
@@ -24,3 +24,4 @@ async function checkFileExists(filePath) {
       core.setFailed(error.message)
     }
   }
+)
