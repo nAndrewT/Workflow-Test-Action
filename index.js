@@ -18,7 +18,7 @@ async function checkFileExists(filePath) {
 
   async () => {
     try{
-      checkFileExists("README.md")
+      checkFileExists("LISENCE")
     }
     catch(error){
       core.setFailed(error.message)
